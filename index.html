@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Green Mart — Your Trusted Neighborhood Retail Store</title>
+  <meta name="description" content="The Green Mart is your one-stop US retail store for kitchen essentials, home care, beauty, baby products, groceries, and more. Quality you can trust." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="topbar-spacer"></span>
+      <span class="topbar-delivery">🚚 <strong>Fast Delivery</strong> · Open 7 days a week</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="logopng/green_store_logo.png" alt="The Green Mart" class="site-logo">
+        <span>The Green Mart</span>
+      </a>
+
+      <form class="header-search" role="search">
+        <label class="sr-only" for="category-select">Choose a category</label>
+        <select id="category-select" class="category-select" aria-label="Select a category">
+          <option value="all">All Categories</option>
+          <option value="kitchen-appliances">Kitchen Appliances</option>
+          <option value="kitchen-gadgets">Kitchen Gadgets</option>
+          <option value="kitchen-utensils">Kitchen Utensils</option>
+          <option value="home-essentials">Home Essentials</option>
+          <option value="pet-care-food">Pet Care &amp; Food</option>
+          <option value="beauty-care">Beauty &amp; Care</option>
+          <option value="hygiene-sanitary">Hygiene &amp; Sanitary</option>
+          <option value="baby-products">Baby Products</option>
+          <option value="toys-games">Toys &amp; Games</option>
+          <option value="pantry-grocery">Pantry &amp; Grocery</option>
+        </select>
+        <input type="search" placeholder="Search essentials, snacks, home care..." aria-label="Search products" />
+        <button type="submit" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="header-actions">
+        <nav class="nav">
+          <a href="#categories">Shop</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#footer">Support</a>
+        </nav>
+        <a href="#contact" class="header-cta">
+          <i class="fa-solid fa-location-dot"></i> Visit Store
+        </a>
+      </div>
+      <button class="menu-toggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <span class="hero-eyebrow"><span class="dot"></span> Trusted by 25,000+ families</span>
+        <h1>Green Store: Everyday Essentials, <span>All Your Choice.</span></h1>
+        <p>
+          From kitchen must-haves to baby care, pantry staples to pet food — The Green Mart brings
+          quality American retail to your neighborhood, with a friendly smile and fair prices.
+        </p>
+        <div class="hero-cta">
+          <a href="#categories" class="btn btn-primary">
+            <i class="fa-solid fa-basket-shopping"></i> Shop Categories
+          </a>
+          <a href="#about" class="btn btn-outline">
+            <i class="fa-solid fa-circle-info"></i> Our Story
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>10+</strong><span>Product Categories</span></div>
+          <div class="hero-stat"><strong>5,000+</strong><span>Items in Stock</span></div>
+          <div class="hero-stat"><strong>4.9★</strong><span>Customer Rating</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+    <div class="hero-visual-inner">
+        
+        <!-- Hero showcase image -->
+        <img src="logopng/Green Store Picture 2.webp" alt="Premium Green Storefront Banner" class="hero-main-image">
+        
+        <!-- Optional hero caption -->
+        <h3>Welcome to The Green Mart</h3> 
+        <p>Storefront · Aisles · Team</p>
+    </div>
+</div>
+
+   <section class="hero-section">
+    <div class="hero-badges-wraper">
+        
+        <div class="hero-badge badge-1">
+            <span class="b-icon"><i class="fa-solid fa-truck-fast"></i></span>
+            <div>Fast Delivery<br /><small>Same day, local</small></div>
+        </div>
+
+        <div class="hero-badge badge-2">
+            <span class="b-icon"><i class="fa-solid fa-shield-heart"></i></span>
+            <div>Trusted Quality<br /><small>Handpicked daily</small></div>
+        </div>
+
+        <div class="hero-legacy-box">
+            <i class="fa-solid fa-star" style="color: #fbbf24;"></i>
+            <p><strong>All Your Needs</strong><br>Serving your neighborhood with love & care.</p>
+        </div>
+</section>
+    </div> 
+
+  <!-- CATEGORIES -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow">Explore The Aisles</span>
+        <h2>Shop by category</h2>
+        <p>Ten thoughtfully curated departments to make your everyday shopping simple, fresh, and fun.</p>
+      </div>
+
+      <div class="cat-grid">
+        <div class="cat-card c-1 reveal" data-name="Kitchen Appliances">
+          <div class="cat-icon"><i class="fa-solid fa-blender"></i></div>
+          <h3>Kitchen Appliances</h3>
+          <p>Blenders, toasters & more</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-2 reveal" data-name="Kitchen Gadgets">
+          <div class="cat-icon"><i class="fa-solid fa-mug-hot"></i></div>
+          <h3>Kitchen Gadgets</h3>
+          <p>Smart cooking tools</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-3 reveal" data-name="Kitchen Utensils">
+          <div class="cat-icon"><i class="fa-solid fa-utensils"></i></div>
+          <h3>Kitchen Utensils</h3>
+          <p>Every cook's essentials</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-4 reveal" data-name="Home Essentials">
+          <div class="cat-icon"><i class="fa-solid fa-house-chimney"></i></div>
+          <h3>Home Essentials</h3>
+          <p>Comfort for every room</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-5 reveal" data-name="Pet Care & Food">
+          <div class="cat-icon"><i class="fa-solid fa-paw"></i></div>
+          <h3>Pet Care & Food</h3>
+          <p>Happy pets, healthy meals</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-6 reveal" data-name="Beauty & Care">
+          <div class="cat-icon"><i class="fa-solid fa-spa"></i></div>
+          <h3>Beauty & Care</h3>
+          <p>Skincare & self-care</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-7 reveal" data-name="Hygiene & Sanitary">
+          <div class="cat-icon"><i class="fa-solid fa-pump-soap"></i></div>
+          <h3>Hygiene & Sanitary</h3>
+          <p>Clean, fresh & safe</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-8 reveal" data-name="Baby Products">
+          <div class="cat-icon"><i class="fa-solid fa-baby"></i></div>
+          <h3>Baby Products</h3>
+          <p>Gentle care for little ones</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-9 reveal" data-name="Toys & Games">
+          <div class="cat-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+          <h3>Toys & Games</h3>
+          <p>Fun for every age</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+        <div class="cat-card c-10 reveal" data-name="Pantry & Grocery">
+          <div class="cat-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <h3>Pantry & Grocery</h3>
+          <p>Fresh daily staples</p>
+          <span class="cat-cta">Shop now →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-visual-inner">
+          <img src="logopng/Green Store Picture 9.png" alt="Green Storefront" class="about-visual-image">
+          <p>All Your Needs</p>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="section-eyebrow">About The Green Mart</span>
+        <h2>A family-owned store, built on trust.</h2>
+        <p>
+          The Green Mart started as a small corner shop with one simple mission: give American
+          families a friendlier, fresher, and fairer place to shop. Today we're proud to serve
+          thousands of neighbors every week with curated products across ten departments.
+        </p>
+        <p>
+          Every item on our shelves is chosen with care — from local pantry favorites to trusted
+          national brands. When you shop with us, you're supporting a local business that gives back
+          to the community it calls home.
+        </p>
+        <div class="about-features">
+          <div class="about-feat">
+            <span class="af-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M6 7V6a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v1h1a1 1 0 0 1 1 1v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h1Zm1 0h10V6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v1Zm4 0h-2V8h2V7Zm4 0h-2V8h2V7Zm-4 3h2v5h-2V10Zm4 0h2v5h-2V10Z" />
+              </svg>
+            </span>
+            <div><h4>Snack & Sip</h4><p>Top-quality packed treats</p></div>
+          </div>
+          <div class="about-feat">
+            <span class="af-icon"><i class="fa-solid fa-hand-holding-heart"></i></span>
+            <div><h4>Family Owned</h4><p>Locally rooted, proudly US</p></div>
+          </div>
+          <div class="about-feat">
+            <span class="af-icon"><i class="fa-solid fa-dollar-sign"></i></span>
+            <div><h4>Fair Prices</h4><p>Premium snacks for your energy</p></div>
+          </div>
+          <div class="about-feat">
+            <span class="af-icon"><i class="fa-solid fa-headset"></i></span>
+            <div><h4>Friendly Service</h4><p>Real people, real help</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow">Visit or Reach Out</span>
+        <h2>Store location & contact</h2>
+        <p>Come say hello, or give us a call — we're always happy to help.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal" data-label="Address copied to clipboard!">
+          <div class="cc-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <h3>Store Address</h3>
+          <p>1405 Athens St<br />Gainesville, GA 30507, <br />United States</p>
+          <p class="muted">Free parking on site</p>
+        </div>
+        <div class="contact-card reveal" data-label="Calling The Green Mart...">
+          <div class="cc-icon"><i class="fa-solid fa-phone"></i></div>
+          <h3>Phone & Email</h3>
+          <p>+1 678-943-1221<br />info@thegreenmart.store</p>
+          <p class="muted">We reply within 1 business hour</p>
+        </div>
+        <div class="contact-card reveal" data-label="See you at the store!">
+          <div class="cc-icon"><i class="fa-regular fa-clock"></i></div>
+          <h3>Business Hours</h3>
+        
+          <p>Mon – Fri: 7:00 AM – 12:00 AM<br />Saturday: 7:00 AM – 12:00 AM<br />Sunday: 7:00 AM – 12:00 AM</p>
+       <p>Hours Might Differ on Independence Day</p>
+        </div>
+      </div>
+
+      <div class="map-block reveal">
+        <div class="map-pin">
+          <div class="pin"><span><i class="fa-solid fa-store"></i></span></div>
+          <h4>The Green Mart</h4>
+          <h5>Green Store</h5>
+          <!-- Yahan map ka code lagayein -->
+   <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.529849503487!2d-83.82470722429496!3d34.288426006423986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5f67b5e4c6c97%3A0x6a0c0c0c0c0c0c0c!2s1405%20Athens%20St%2C%20Gainesville%2C%20GA%2030507%2C%20USA!5e0!3m2!1sen!2s!4v1710000000000" 
+  width="100%" 
+  height="300" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="logopng/green_store_white text Transparent.png" alt="The Green Mart" class="footer-logo-image">
+            The Green Mart (Green Store)
+          </a>
+          <p>Your neighborhood retail store — bringing quality essentials to American families since 2020.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#categories">Kitchen</a></li>
+            <li><a href="#categories">Home</a></li>
+            <li><a href="#categories">Beauty</a></li>
+            <li><a href="#categories">Grocery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+     <div class="footer-bottom">
+  <span>© <span id="year"></span> The Green Mart. All rights reserved.</span>
+  
+  <span>Made with 💚 in the USA 
+    <img src="https://flagcdn.com/24x18/us.png" alt="USA Flag" style="width:20px; height:auto; vertical-align:middle; margin-left:5px;">
+  </span>
+</div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
